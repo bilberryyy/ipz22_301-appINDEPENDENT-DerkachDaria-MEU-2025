@@ -1,0 +1,170 @@
+body{
+    background-color: rgb(218, 228, 231);
+}
+
+h1 {
+    color: rgb(20, 105, 126);
+}
+
+h2{
+    color: rgb(63, 142, 162);
+}
+
+.outline-example {
+    outline: 2px solid blue;
+    padding: 10px;
+}
+
+.outline-width-example {
+    outline: 5px solid red;
+}
+
+.outline-color-example {
+    outline: 3px dashed green;
+}
+
+.outline-shorthand-example {
+    outline: 2px dotted purple;
+}
+
+.outline-offset-example {
+    outline: 2px solid black;
+    outline-offset: 10px;
+}
+
+.text-shadow-example {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.background-example {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.rounded-example {
+    border-radius: 10px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+.animation-example {
+    width: 100px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: darkblue;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.column {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.shadow-example {
+    box-shadow: 5px 5px 5px grey;
+    padding: 10px;
+    background-color: white;
+}
+
+.box-shadow-example {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    background-color: #fff;
+}
+
+.transition-example {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: background-color 0.5s ease;
+}
+
+.transition-example:hover {
+    background-color: red;
+}
+
+.text-effect {
+    font-size: 40px;
+    color: blue;
+    text-shadow: 2px 2px 5px gray;
+}
+
+@keyframes example {
+    from {
+        background-color: red;
+    }
+
+    to {
+        background-color: yellow;
+    }
+}
